@@ -1,0 +1,28 @@
+table {
+    width: 500px;
+    font-family: roboto;
+}
+
+th {
+    text-align: left;
+    color: white;
+    background: purple;
+}
+
+tr:nth-child(odd) {
+    color: white;
+    background: rgb(94, 24, 87, 0.8);
+}
+
+tr:nth-child(even) {
+    color: white;
+    background: rgb(249, 62, 230, 0.8);
+}
+
+
+table, th, td {
+    border: 5px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
